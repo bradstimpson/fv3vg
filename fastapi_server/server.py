@@ -4,7 +4,7 @@ import uvicorn
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from model import load_model
+from predictor.model import load_model
 
 
 class Observation(BaseModel):
